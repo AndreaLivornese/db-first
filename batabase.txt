@@ -9,4 +9,7 @@ targa:VARCHAR(7) NOT NULL
 colore:VARCHAR(15) NOT NULL
 motore:VARCHAR(255) NOT NULL
 anno_immatricolazione:DATE NOT NULL
+km:MEDIAUM INT NULL
+n_proprietari:TINY INT NULL
+n_tagliandi:TINY INT NULL
 
