@@ -1,0 +1,13 @@
+Tabella di un DB per un concessionario di auto
+
+campi:
+
+id_auto:SMALL INT  PK
+n_telaio:VARCHAR(17) NOT NULL UNIQUE
+n_porte:TINYINT NOT NULL
+usata:TINYINT(TRUE/FALSE) NOT NULL
+targa:VARCHAR(7) NULL
+colore:VARCHAR(15) NOT NULL
+motore:VARCHAR(255) NOT NULL
+anno_immatricolazione:DATE NULL
+
